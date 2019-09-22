@@ -1,6 +1,6 @@
 #introduce  https://help.github.com/en/articles/configuring-a-workflow
 #syntax doc https://help.github.com/en/articles/workflow-syntax-for-github-actions
-name: CI
+name: ci
 on:
   push:
     branches:

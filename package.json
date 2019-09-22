@@ -1,6 +1,6 @@
 {
   "name": "awesome-drawing",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,8 @@
     "serve": "webpack-dev-server",
     "build": "webpack --mode=production"
   },
-  "author": "",
+  "author": "senwii",
+  "homepage": "https://senii.github.io/awesome-drawing",
   "license": "ISC",
   "dependencies": {
     "react": "^16.9.0",
