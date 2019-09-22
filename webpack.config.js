@@ -18,7 +18,8 @@ function getEntries() {
 				templateParameters: {
 					title: dirName,
 				},
-				filename: `${dirName.toLowerCase()}/index.html`,
+				// filename: `${dirName.toLowerCase()}/index.html`,
+				filename: `${dirName.toLowerCase()}.html`,
 				template: './public/index.html',
 			})
 		)
