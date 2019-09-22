@@ -38,7 +38,8 @@ module.exports = {
 	entry,
 	output: {
 		path: __dirname + '/dist',
-		filename: '[name]/app.[hash].js',
+    filename: '[name]/app.[hash].js',
+    publicPath: 'https://senwii.github.io/awesome-drawing',
 	},
 	devServer: {
 		contentBase: __dirname + '/dist',
